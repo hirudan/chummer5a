@@ -857,7 +857,7 @@
                 <xsl:for-each select="children/cyberware">
                     <br/>&#160;&#160;&#160;+ <xsl:value-of select="name"/>
                     <xsl:if test="rating != 0">
-                        <xsl:value-of select="$lang.Rating"/>&#160;<xsl:value-of select="rating"/>
+                      <xsl:value-of select="$lang.Rating"/>&#160;<xsl:value-of select="rating"/>
                     </xsl:if>
                 </xsl:for-each>
             </xsl:if>
